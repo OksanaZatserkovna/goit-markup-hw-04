@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document 1 WebStudio </title>
+    <!-- Основные шрифти-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
+<!--Нормализация стиля-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+
+    <!-- Нашы стили -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="container header-container">
+      <nav class="nav">
+        <a href="./portfolio.html" class="nav-logo link " > <span class="logo">Web</span>Studio </a>
+        <ul class="nav-list list ">
+          <li class="nav-item" >
+            <a class="activ-dark current link" href="./index.html">Студия</a>
+          </li>
+          <li class="nav-item">
+            <a class="activ-dark current link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav-item">
+            <a class="activ-dark link" href="">Контакты</a>
+          </li>
+        </ul> 
+      </nav>
+        <ul class="nav-list list">
+          <li>
+            <a class="nav-button link" href="info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a  class="nav-info link" href="+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+       </div>
+
+    
+    </header>
+    
+    <!-- Уникальний контент-->
+    
+    <main>
+      <!-- Секция Герой -->
+      <section class="hero">
+      <div class="container">
+      
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="hero-btn" type="button" > Заказать услугу </button>
+        </div>
+      </section>
+        <!-- Секция О нас-->
+        <div class="container">
+          <section class="about">
+      
+        <h2 hidden> Как работаем </h2>
+        <ul class="about-list list">
+          <li class="about-item">
+            <h3 class="subtitle">Внимание к деталям</h3>
+            <p class="about-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          </li>
+          <li class="about-item">
+            <h3 class="subtitle"> Пунктуальность </h3>
+            <p class="about-text"> Задача организации, в особенности же рамки и место обучения кадров влечет за собой. </p>
+          </li>
+          <li class="about-item">
+            <h3 class="subtitle"> Планирование </h3>
+            <p class="about-text"> Равным образом консультация с широким активом в значительной степени обуславливает. </p>
+          </li>
+          <li class="about-item">
+            <h3 class="subtitle"> Современные технологии </h3>
+            <p class="about-text"> Значимость этих проблем настолько очевидна, что реализация плановых заданий. </p>
+          </li>
+        </ul>
+        </div>
+      </section>  
+        <!-- Чем мы занимаемся-->
+       <div class="container">
+        <section class="we">
+          <h2 class="we-title"> Чем мы занимаемся</h2>
+          <ul class="we-list"> 
+            <li class="">
+              <img class="we-foto" src="./foto/imgdz.jpg" alt="" width="370" height="294">
+            </li>
+            <li class="">
+              <img class="we-foto" src="./foto/imgdz1.jpg" alt="" width="370" height="294">
+            </li>
+            <li class="">
+              <img class="we-foto" src="./foto/imgdz2.jpg" alt="" width="370" height="294">
+            </li>
+          </ul>
+        </section>
+       </div>
+    
+        <!-- Наша команда -->
+        <div class="container">
+        <section class="tiam">
+          <h2 class="tiam-title">Наша команда</h2>
+          <ul class="tiam-list list">
+            <li class="tiam-item">
+              <img src="./foto/pfoto1.jpg" alt="Игорь Демьяненко" width="270" height="260">
+              <h3 class="subtitle">Игорь Демьяненко</h3>
+              <p class="tiam-text" lang="en">Product Designer</p>
+            </li>
+            <li class="tiam-item">
+              <img src="./foto/pfoto2.jpg" alt="Ольга Репина" width="270" height="260">
+              <h3 class="subtitle">Ольга Репина</h3>
+              <p class="tiam-text" lang="en">Frontend Developer</p>
+    
+            </li>
+            <li class="tiam-item">
+              <img src="./foto/pfoto3.jpg" alt="Николай Тарасов" width="270" height="260">
+              <h3 class="subtitle">Николай Тарасов</h3>
+              <p class="tiam-text" lang="en">Marketing</p>
+            </li>
+            <li class="tiam-item">
+              <img src="./foto/pfoto4.jpg" alt="Михаил Ермаков" width="270" height="260">
+              <h3 class="subtitle">Михаил Ермаков</h3>
+              <p class="tiam-text" lang="en">UI Designer</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+        <!--Секция Контакти-->
+        <section class="footer">
+       <div class="container">
+         <footer class="footer">  
+          <a class="footer-logo link" href=""> <span class="logo">Web</span>Studio</a>
+          <address class="footer">
+            <ul class="footer-list list ">
+              <li class="footer-item">
+                <a class="footer-link link" href="https://google.com">г. Киев, пр-т Леси Украинки, 26</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link link" href="info@example.com">info@example.com</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+          </footer>
+          </div>
+        
+        </section>
+    
+</body>
+</html>
