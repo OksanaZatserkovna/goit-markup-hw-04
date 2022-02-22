@@ -18,6 +18,11 @@
   /* Темный фон */
   --background-dark-bg: #2f303a;
   --bly-color-txt: #2196f3;
+  /* Цвет для затемнения*/
+  --dark-gray-1: #C4C4C4
+  --dark-gray-2: rgba(47, 48, 58, 0.4)
+  
+
 }
 
 /*ОБщеи стили*/
@@ -163,11 +168,31 @@ p last-child {
 }
 
 .hero {
-  background: var(--background-dark-bg);
+background: var(--background-dark-bg);
   color: var(--primery-light-txt);
   text-align: center;
   padding: 200px 0;
-}
+   max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #757575;
+  background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4)
+  rgba(47, 48, 58, 0.4)), url(../img/foto.jpg);
+   background-position: center;
+    background-repeat: no-repeat;
+    }
+  
+  
+  /*background-image: linear-gradient(
+    to reght, rgba(47, 48, 58, 0.4), 
+    rgba(47,48,58,0.4);
+   
+    background : var(--background-dark-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+     url(../img(1).jpg./foto);*/
+
 
 .hero-title {
   font-weight: 900;
